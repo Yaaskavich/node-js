@@ -61,3 +61,9 @@ const {
     daysWorkedExcludingFridays,
     monthlyTargets,totalTarget
 } = calculateTotalTarget(startDate, endDate, totalAnnualTarget, [5]);
+
+
+console.log("Days excluding Fridays: ", daysExcludingFridays);
+console.log("Days worked excluding Fridays: ", daysWorkedExcludingFridays);
+console.log("Monthly targets: ", monthlyTargets);
+console.log("Total target: ", totalTarget);
