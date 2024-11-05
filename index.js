@@ -43,4 +43,11 @@ function calculateTotalTarget(startDate, endDate, totalAnnualTarget, daysToExclu
       // Move to the next month
       current.setMonth(current.getMonth() + 1);
     }
+
+    return {
+        daysExcludingFridays,
+        daysWorkedExcludingFridays,
+        monthlyTargets,
+        totalTarget
+    };
 }
