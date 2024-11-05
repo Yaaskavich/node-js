@@ -55,3 +55,9 @@ function calculateTotalTarget(startDate, endDate, totalAnnualTarget, daysToExclu
 const startDate = '2024-01-01';
 const endDate = '2024-03-31';
 const totalAnnualTarget = 5220;
+
+const {
+    daysExcludingFridays,
+    daysWorkedExcludingFridays,
+    monthlyTargets,totalTarget
+} = calculateTotalTarget(startDate, endDate, totalAnnualTarget, [5]);
